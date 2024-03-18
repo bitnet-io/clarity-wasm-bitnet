@@ -6,7 +6,7 @@ build = "build.rs"
 
 [dependencies]
 #clarity = { git = "https://github.com/bitnet-io/stacks-core-bitnet.git", branch = "feat/clarity-wasm-next" }
-clarity = { git = "https://github.com/bitnet-io/stacks-core-bitnet.git", branch = "wasm" }
+clarity = { git = "https://github.com/bitnet-io/stacks-core-wasm.git", branch = "master" }
 clap = { version = "4.3.17", features = ["derive"] }
 regex = "1.9.1"
 walrus = "0.20.1"
